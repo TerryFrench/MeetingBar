@@ -12,7 +12,9 @@ import XCTest
 
 let meetings = [
     MeetingLink(service: .zoom, url: URL(string: "https://zoom.us/j/5551112222")!),
+    MeetingLink(service: .zoom, url: URL(string: "https://any-client.zoom-x.de/j/65194487075")!),
     MeetingLink(service: .zoom_native, url: URL(string: "zoommtg://zoom.us/join?confno=123456789&pwd=xxxx&zc=0&browser=chrome&uname=Betty")!),
+    MeetingLink(service: .zoom_native, url: URL(string: "zoommtg://zoom-x.de/join?confno=123456789&pwd=xxxx&zc=0&browser=chrome&uname=Betty")!),
     MeetingLink(service: .around, url: URL(string: "https://meet.around.co/r/kyafvk1b")!),
     MeetingLink(service: .around, url: URL(string: "https://around.co/r/kyafvk1b")!),
     MeetingLink(service: .blackboard_collab, url: URL(string: "https://us.bbcollab.com/guest/C2419D0F68382D351B97376D6B47ABA2")!),
@@ -37,7 +39,9 @@ let meetings = [
     MeetingLink(service: .vimeo, url: URL(string: "https://venues.vimeo.com/12345678/abcdef123")!),
     MeetingLink(service: .reclaim, url: URL(string: "https://reclaim.ai/z/T01ABCDEFGH/C02ABCDEFGH")!),
     MeetingLink(service: .tuple, url: URL(string: "https://tuple.app/c/V1StGXR8_Z5jdHi6B")!),
-    MeetingLink(service: .pumble, url: URL(string: "https://meet.pumble.com/vly-hggs-xsn")!)
+    MeetingLink(service: .pumble, url: URL(string: "https://meet.pumble.com/vly-hggs-xsn")!),
+    MeetingLink(service: .suitConference, url: URL(string: "https://turkcell.conference.istesuit.com/username")!),
+    MeetingLink(service: .doxyMe, url: URL(string: "https://bbc.doxy.me/dr.who")!)
 ]
 
 class MeetingServicesTests: XCTestCase {
